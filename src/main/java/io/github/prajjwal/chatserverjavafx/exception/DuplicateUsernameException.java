@@ -6,4 +6,8 @@ Time: 7:22 PM
 File: DuplicateUsernameException.java */
 package io.github.prajjwal.chatserverjavafx.exception;
 
-public class DuplicateUsernameException {}
+public class DuplicateUsernameException extends Exception {
+    public DuplicateUsernameException(String message) {
+        super(message);
+    }
+}
